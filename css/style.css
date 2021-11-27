@@ -1,0 +1,107 @@
+@charset "utf-8";
+html{
+    font-size:62.5%;/* 16px ×　62.5% = 10px */
+
+}
+
+body{
+    color: #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.site-title{
+    font: size 48px;
+    font-weight: bold;
+    color:#fff;
+}
+.page-title{
+    font-size:32px;
+}
+
+
+/*--------
+hero-image
+--------*/
+.hero-image{
+    
+}
+
+
+
+/*--------
+about
+--------*/
+
+.about-title{
+    margin-bottom: 24px; 
+    color:#FFD61A;
+    text-align: center;
+   }
+
+.about-text{
+    text-align: center;
+    margin: 2.5rem auto;
+    line-height: 1.5;
+}
+.about-contents{
+    padding: 4rem;
+}
+.about-image{
+    display: flex;
+    max-width: 100%;
+
+}
+/*--------
+corse
+--------*/
+.corse-item{
+
+}
+
+/*--------
+news
+--------*/
+.news-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.news-item{
+    min-width: 33.333%;
+    width: 33.333%;
+    flex: 0 0 33.333%;
+
+}
+.news-text{
+    margin-bottom: 24px; 
+    color:#FFD61A;
+    text-align: center;
+}
+
+
+/* ---------------
+
+CSSを適用していく時は、下記テンプレートをコピペして
+波括弧の間に命令を書くようにしましょう！
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここからテンプレート ↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+.nickname{
+
+}
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここからテンプレート ↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+---------------*/
+
+/*画面全体の基本設定*/
+
+/*画像を伸縮させるために必要*/
